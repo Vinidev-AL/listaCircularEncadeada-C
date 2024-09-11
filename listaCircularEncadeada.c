@@ -17,6 +17,7 @@ Lista* insere_inicio(Lista* l, int cod, int nota) {
         return novoNO;
     }
 
+
     Lista* ultimo = l->ant;
     novoNO->prox = l;
     novoNO->ant = ultimo;
